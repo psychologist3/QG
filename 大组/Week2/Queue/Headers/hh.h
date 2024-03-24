@@ -1,0 +1,12 @@
+extern LinkQueue *InitQueue(LinkQueue*Q);
+extern LinkQueue * EnQueue(LinkQueue *Q);
+extern LinkQueue *DestoryQueue(LinkQueue *Q);
+extern LinkQueue * DeQueue(LinkQueue *Q);
+extern LinkQueue *ClearQueue(LinkQueue*Q);
+extern LinkQueue *ClearQueue(LinkQueue*Q);
+extern LinkQueue *IsFullQueue(LinkQueue*Q);
+extern LinkQueue *IsEmptyQueue(LinkQueue*Q);
+extern LinkQueue *CreateQueue(LinkQueue*Q);
+extern  LinkQueue *GetHeadQueue(LinkQueue*Q);
+extern int LengthQueue(LinkQueue*Q);
+extern void TraverseQueue(LinkQueue*Q);
